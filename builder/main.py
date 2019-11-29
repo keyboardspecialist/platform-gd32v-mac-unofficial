@@ -10,14 +10,14 @@ platform = env.PioPlatform()
 board = env.BoardConfig()
 
 env.Replace(
-    AR="riscv-nuclei-elf-gcc-ar",
-    AS="riscv-nuclei-elf-as",
-    CC="riscv-nuclei-elf-gcc",
-    GDB="riscv-nuclei-elf-gdb",
-    CXX="riscv-nuclei-elf-g++",
-    OBJCOPY="riscv-nuclei-elf-objcopy",
-    RANLIB="riscv-nuclei-elf-gcc-ranlib",
-    SIZETOOL="riscv-nuclei-elf-size",
+    AR="riscv64-unknown-elf-gcc-ar",
+    AS="riscv64-unknown-elf-as",
+    CC="riscv64-unknown-elf-gcc",
+    GDB="riscv64-unknown-elf-gdb",
+    CXX="riscv64-unknown-elf-g++",
+    OBJCOPY="riscv64-unknown-elf-objcopy",
+    RANLIB="riscv64-unknown-elf-gcc-ranlib",
+    SIZETOOL="riscv64-unknown-elf-size",
 
     ARFLAGS=["rc"],
 

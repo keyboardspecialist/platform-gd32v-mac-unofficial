@@ -1,10 +1,10 @@
 {
-    "name": "gd32v",
-    "title": "GigaDevice GD32V",
+    "name": "gd32v-mac-unofficial",
+    "title": "GigaDevice GD32V Platform with Toolchain for Mac OS (unoffical fork)",
     "version": "1.1.0",
     "keywords": "risc-v, gd32v, sipeed, longan, arduino",
     "description": "The GigaDevice GD32V device is a 32-bit general-purpose microcontroller based on the RISC-V core with an impressive balance of processing power, reduced power consumption and peripheral set.",
-    "url": "https://www.gigadevice.com/products/microcontrollers/gd32/risc-v/",
+    "url": "https://github.com/yesitsme007/platform-gd32v-mac-unofficial",
     "homepage": "http://platformio.org/platforms/gd32v",
     "license": "Apache-2.0",
     "engines": {
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/sipeed/platform-gd32v.git"
+        "url": "https://github.com/yesitsme007/platform-gd32v-mac-unofficial.git"
     },
     "authors": [{
         "name": "Sipeed",
@@ -20,8 +20,7 @@
         "url": "https://www.sipeed.com"
     }],
     "packageRepositories": [
-        "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-        "http://dl.platformio.org/packages/manifest.json"
+        "https://raw.githubusercontent.com/yesitsme007/test1/master/manifest.json"
     ],
     "frameworks": {
         "gd32vf103-sdk": {
@@ -59,5 +58,4 @@
             "version": "~9.2.0"
         }
     }
-
 }

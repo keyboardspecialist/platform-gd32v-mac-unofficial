@@ -1,6 +1,6 @@
 from platformio.managers.platform import PlatformBase
 
-class Gd32vPlatform(PlatformBase):
+class Gd32vmacunofficialPlatform(PlatformBase):
 
     def get_boards(self, id_=None):
         result = PlatformBase.get_boards(self, id_)
