@@ -53,7 +53,7 @@
             "optional": true,
             "version": "~0.1.0"
         },
-        "toolchain-riscv-mac": {
+        "toolchain-gd32v-mac": {
             "type": "toolchain",
             "version": "~9.2.0"
         }
