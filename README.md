@@ -7,17 +7,17 @@ The official repository gd32v from sipeed for PlatformIO currently does not supp
 
  There is a known issue for this [here](https://github.com/sipeed/platform-gd32v/issues/6)
  
- This project is an unoffical for of the offical Git Repository <https://github.com/sipeed/platform-gd32v>. It provides supporrt for MacOS.
+ This project is an unoffical fork of the offical Git Repository <https://github.com/sipeed/platform-gd32v>. It provides supporrt for MacOS.
  
 # Status
 This is an inoffical fork and in an experimental, unsupported state. Do not expect stability or production quality. Use this at your own risk. It is intended to be a temporary workaround until official packages are available).
 
 
 # Usage
-You can install this platform project from the PlatformIO IDE VSCode or from the command line client. For additional information see the PlatformIO [documentation pages](https://docs.platformio.org)
+You can install this platform project from the PlatformIO IDE VSCode or from the command line client. For additional information see the PlatformIO [documentation pages](https://docs.platformio.org).
 It is not recommended to install this in parallel with official gd32v package (it is possible but there may be conflicts).
 
-## Install with PLatformIO CLI (command line)
+## Install with PlatformIO CLI (command line)
     platformio platform install https://github.com/yesitsme007/platform-gd32v-mac-unofficial.git
 Uninstall:
     
@@ -46,7 +46,7 @@ Creation from the IDE fails with an error but the project files get created and 
     framework = arduino
     upload_protocol = dfu
 
-###Useful commands:
+### Useful commands:
 
     pio init -d myproject -b sipeed-longan-nano
     pio init -d myproject -b sipeed-longan-nano --project-option "framework=arduino" --project-option "upload_protocol=dfu"
@@ -56,10 +56,7 @@ Creation from the IDE fails with an error but the project files get created and 
     platformio debug
 
 # License
-This is collection of various other open source projects. The licenses of the corresponding projects apply. For additonal parts see [LICENSE](LICENCSE.md) file
-
-1. Please DO NOT USE this at the moment. This is work in progress and not functional. 
-Try the [offical repository](https://github.com/sipeed/platform-gd32v)
+This is collection of various other open source projects. The licenses of the corresponding projects apply. For additonal parts see [LICENSE](LICENSE.md) file
 
 # Notes
 * It seems that PlatformIO does not support extending existing projects with new additional package repositories. Also this project slightly differs from the original one. Therefore it was created as a fork.
@@ -68,7 +65,7 @@ Try the [offical repository](https://github.com/sipeed/platform-gd32v)
 * Other projects used:
     * dfu-util <https://github.com/riscv-mcu/gd32-dfu-utils> (patched version) 
     * OpenOCD: <https://github.com/riscv/riscv-openocd> 
-    * stm32flash: <https://git.code.sf.net/p/stm32flash/code>
+    * stm32flash: <https://sourceforge.net/projects/stm32flash/>
 * The package repository uses Github releases with attachments to provide the binary archives. See <https://github.com/yesitsme007/platformio-gd32v-mac-unofficial-repo>
 
 # Known Issues
