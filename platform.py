@@ -74,7 +74,7 @@ class Gd32vmacunofficialPlatform(PlatformBase):
             if link != "rv-link":
                 debug['tools'][link] = {
                     "server": {
-                        "package": "tool-openocd-gd32v",
+                        "package": "tool-openocd-gd32v-mac",
                         "executable": "bin/openocd",
                         "arguments": server_args
                     }
