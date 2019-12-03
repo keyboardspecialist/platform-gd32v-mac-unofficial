@@ -147,8 +147,6 @@ elif upload_protocol == "dfu":
     
     upload_actions = [env.VerboseAction("$UPLOADCMD", "Uploading $SOURCE")]
 
-    # The following lines differ between master and latest release. Disabled because this causes an error during 
-    # compilation... KeyError: 'tool-gd32vflash': 
     # Add special DFU header to the binary image
     env.AddPostAction(
         join("$BUILD_DIR", "${PROGNAME}.bin"),
@@ -173,7 +171,7 @@ elif upload_protocol in debug_tools:
     openocd_args = [
         #"-c",
         #"debug_level %d" % (2 if int(ARGUMENTS.get("PIOVERBOSE", 0)) else 1),
-        #"-s", platform.get_package_dir("tool-openocd-gd32v") or ""
+        #"-s", platform.get_package_dir("tool-openocd-gd32v-mac") or ""
     ]
     # openocd_args.extend([ 
     #     "-f",
