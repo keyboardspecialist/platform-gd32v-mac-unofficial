@@ -150,16 +150,16 @@ elif upload_protocol == "dfu":
     # The following lines differ between master and latest release. Disabled because this causes an error during 
     # compilation... KeyError: 'tool-gd32vflash': 
     # Add special DFU header to the binary image
-#    env.AddPostAction(
-#        join("$BUILD_DIR", "${PROGNAME}.bin"),
-#        env.VerboseAction(
-#            " ".join([
-#                join(platform.get_package_dir("tool-gd32vflash") or "",
-#                        "dfu-suffix"),
-#                "-v %s" % vid,
-#                "-p %s" % pid,
-#                "-d 0xffff", "-a", "$TARGET"
-#            ]), "Adding dfu suffix to ${PROGNAME}.bin"))
+    env.AddPostAction(
+        join("$BUILD_DIR", "${PROGNAME}.bin"),
+        env.VerboseAction(
+            " ".join([
+                join(platform.get_package_dir("tool-gd32vflash-mac") or "",
+                        "dfu-suffix"),
+                "-v %s" % vid,
+                "-p %s" % pid,
+                "-d 0xffff", "-a", "$TARGET"
+            ]), "Adding dfu suffix to ${PROGNAME}.bin"))
 
     env.Replace(
         UPLOADER = _upload_tool,
