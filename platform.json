@@ -20,7 +20,7 @@
         "url": "https://www.sipeed.com"
     }],
     "packageRepositories": [
-        "https://raw.githubusercontent.com/yesitsme007/test1/master/manifest.json",
+        "https://github.com/yesitsme007/platformio-gd32v-mac-unofficial-repo/releases/download/0.0.1/manifest.json",
         "https://dl.bintray.com/platformio/dl-packages/manifest.json",
         "http://dl.platformio.org/packages/manifest.json"
     ],
