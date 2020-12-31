@@ -20,8 +20,7 @@
         "url": "https://www.sipeed.com"
     }],
     "packageRepositories": [
-        "https://github.com/yesitsme007/platformio-gd32v-mac-unofficial-repo/releases/download/0.0.1/manifest.json",
-        "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+        "https://github.com/keyboardspecialist/platformio-gd32v-mac-unofficial-repo/releases/download/v0.1-test/manifest.json",
         "http://dl.platformio.org/packages/manifest.json"
     ],
     "frameworks": {
@@ -55,7 +54,7 @@
             "optional": true,
             "version": "~0.1.0"
         },
-        "toolchain-gd32v": {
+        "toolchain-gd32v-mac": {
             "type": "toolchain",
             "version": "~9.2.0"
         }
