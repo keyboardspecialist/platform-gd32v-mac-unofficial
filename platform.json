@@ -20,8 +20,7 @@
         "url": "https://www.sipeed.com"
     }],
     "packageRepositories": [
-        "https://github.com/keyboardspecialist/platformio-gd32v-mac-unofficial-repo/releases/download/v0.1-test/manifest.json",
-        "http://dl.platformio.org/packages/manifest.json"
+        "https://github.com/keyboardspecialist/platformio-gd32v-mac-unofficial-repo/releases/download/v0.1-test/manifest.json"
     ],
     "frameworks": {
         "gd32vf103-sdk": {
