@@ -55,7 +55,7 @@
             "optional": true,
             "version": "~0.1.0"
         },
-        "toolchain-gd32v-mac": {
+        "toolchain-gd32v": {
             "type": "toolchain",
             "version": "~9.2.0"
         }
