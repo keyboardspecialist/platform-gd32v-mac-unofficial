@@ -19,9 +19,6 @@
         "email": "support@sipeed.com",
         "url": "https://www.sipeed.com"
     }],
-    "packageRepositories": [
-        "https://github.com/keyboardspecialist/platformio-gd32v-mac-unofficial-repo/releases/download/v0.1-test/manifest.json"
-    ],
     "frameworks": {
         "gd32vf103-sdk": {
             "package": "framework-gd32vf103-sdk",
@@ -55,7 +52,7 @@
         },
         "toolchain-gd32v-mac": {
             "type": "toolchain",
-            "version": "~9.2.0"
+            "version": "https://github.com/keyboardspecialist/platformio-gd32v-mac-unofficial-repo/releases/download/v0.1-test/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-apple-darwin.tar.gz"
         }
     }
 }
