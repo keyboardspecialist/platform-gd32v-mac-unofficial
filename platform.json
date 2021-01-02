@@ -50,9 +50,9 @@
             "optional": true,
             "version": "~0.1.0"
         },
-        "toolchain-gd32v-mac": {
+        "toolchain-gd32v-darwin_x86_64": {
             "type": "toolchain",
-            "version": "https://github.com/keyboardspecialist/platformio-gd32v-mac-unofficial-repo/releases/download/v0.1-test/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-apple-darwin.tar.gz"
+            "version": "9.2.0"
         }
     }
 }
