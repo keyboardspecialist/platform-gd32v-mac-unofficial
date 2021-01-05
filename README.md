@@ -1,3 +1,6 @@
+__This repository has been modified for PlatformIO 5.x+__
+
+
 # platform-gd32v-mac-unofficial
 The platform package for RISCV processors is available in the offical repositories for PlatformIO. Instructions can be found [here](https://docs.platformio.org/en/latest/platforms/sifive.html). Additional documentation and tutorials can be found on the board vendor pages, e.g. [Longan Nano](https://longan.sipeed.com/en) or [Maixduino](https://maixduino.sipeed.com/en/)
 The official repository gd32v from sipeed for PlatformIO currently does not support MacOS (toolchain, flash tool, etc.). When trying to install this platform on a Mac you will see an error like:
