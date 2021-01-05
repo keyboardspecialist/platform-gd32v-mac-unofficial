@@ -38,7 +38,7 @@
         "framework-arduino-gd32v": {
             "optional":true,
             "type": "framework",
-            "version": "~0.1.1"
+            "version": "https://github.com/LynnL4/framework-arduino-gd32v.git"
         },
         "tool-openocd-gd32v-mac": {
             "optional": true,
@@ -48,11 +48,11 @@
         "tool-gd32vflash-mac": {
             "type": "uploader",
             "optional": true,
-            "version": "~0.1.0"
+            "version": "~1.0"
         },
-        "toolchain-gd32v-darwin_x86_64": {
+        "toolchain-gd32v-mac": {
             "type": "toolchain",
-            "version": "9.2.0"
+            "version": "~9.2.0"
         }
     }
 }
