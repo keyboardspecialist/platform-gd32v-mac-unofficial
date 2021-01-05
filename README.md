@@ -1,4 +1,5 @@
 __This repository has been modified for PlatformIO 5.x+__
+__packageDependencies is no longer used to resolve packages, so tools have to either be placed by hand or officially published__
 
 
 # platform-gd32v-mac-unofficial
