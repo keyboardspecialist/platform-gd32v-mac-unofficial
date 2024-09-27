@@ -9,7 +9,7 @@
         ],
         "ldscript": "GD32VF103xB.lds",
         "mabi": "ilp32",
-        "march": "rv32imac",
+        "march": "rv32imac_zicsr",
         "mcmodel": "medlow",
         "mcu": "GD32VF103VBT6",
         "variant": "gd32vf103_eval",
